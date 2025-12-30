@@ -15,3 +15,12 @@ int main(){
 	
 	return 0;
 }
+
+void mySwap(int &x,int &y){
+    int k;
+    int u;
+    k = x;
+    u = y;
+    x = u;
+    y = k;
+}
